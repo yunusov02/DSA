@@ -1,0 +1,38 @@
+1. Vector
+
+2. Stack
+
+3. Queue
+
+4. Linked List
+    4.1 Singly Linked List
+    4.2 Doubly Linked List
+
+5. Set
+
+6. Map
+
+7. Tree
+    7.1 BinaryTree
+    7.2 BinarySearchTree
+    7.3 Balanced BSTs:
+        AVL Tree
+        Red-Black Tree (used in std::map / std::set)
+    7.4 Heap (Min-Heap, Max-Heap → used in priority queues)
+    7.5 Trie (Prefix Tree, for strings/autocomplete)
+    7.6 Segment Tree (for range queries, e.g., sum/min/max)
+    7.7 Fenwick Tree (Binary Indexed Tree, for range queries, easier than segment tree)
+
+8. Graphs
+    Representations:
+        Adjacency Matrix
+        Adjacency List
+
+9. HashTable
+
+10. Concurrency & Distributed Systems
+    
+    Queue (Message Queues: Kafka, RabbitMQ) → producer-consumer, job processing
+    Circular Buffer / Ring Buffer → high-performance logging, streaming
+    Disjoint Set (Union-Find) → useful in clustering, distributed systems (e.g., connected components in service graphs)
+
