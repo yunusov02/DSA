@@ -1,5 +1,5 @@
-01. Array (Fixed + Dynamic)
-02. Linked List (Singly + Doubly)
+01. Array (Fixed + Dynamic)                 DONE
+02. Linked List (Singly + Doubly)           WORKING
 03. Stack
 04. Queue
 05. Deque
