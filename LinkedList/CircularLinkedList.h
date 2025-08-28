@@ -18,7 +18,9 @@ class CircularLinkedList {
 
 
     public:
-        CircularLinkedList() {};
+        CircularLinkedList() {
+            head = nullptr;
+        };
         CircularLinkedList(Node<T> *obj) {
             head = obj;
         } // done

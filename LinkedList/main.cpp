@@ -13,15 +13,14 @@ int main() {
     cList.insertFront(3);
     cList.insertFront(4);
 
+    cList.printList();
+
     cList.insertBack(5);
     cList.insertBack(6);
     cList.insertBack(7);
     cList.insertBack(8);
 
-
     cList.insertAt(4, 100);
-
-    cList.printList();
 
     cList.deleteFront();
     cList.deleteFront();
@@ -34,12 +33,6 @@ int main() {
     cList.clear();
 
     cList.printList();
-
-
-
-
-
-
 
     // SinglyLinkedList<int> list;
 
