@@ -9,10 +9,24 @@ class StackNode {
         StackNode *next;
 
     public:
-        StackNode() {}
+        StackNode() {
+            next = nullptr;
+        }
         StackNode(T value) {
             data = value;
             next = nullptr;
+        }
+
+        void set_next(StackNode<T> *obj) {
+            next = obj;
+        }
+
+        StackNode<T> *get_next() {
+            return next;
+        }
+
+        T get_data() const {
+            return data;
         }
 };
 
