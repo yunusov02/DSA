@@ -2,6 +2,9 @@
 
 /*
 
+FIFO - First In First Out
+
+
 insert -> Enqueue
 delete -> Dequeue
 
